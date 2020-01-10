@@ -14,7 +14,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets.chomp.strip
+  gets.chomp
 end
 
 def process_input(randNum,input)
