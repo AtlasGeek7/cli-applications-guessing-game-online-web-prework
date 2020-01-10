@@ -19,11 +19,11 @@ end
 
 def process_input(randNum,input)
   case capacity
-when 0
-  "You ran out of gas."
-when 1..20
-  "The tank is almost empty. Quickly, find a gas station!"
-when 21..70
+  when 0
+    "You ran out of gas."
+  when 1..20
+    "The tank is almost empty. Quickly, find a gas station!"
+  when 21..70
   "You should be ok for now."
 when 71..100
   "The tank is almost full."
