@@ -20,7 +20,7 @@ end
 def process_input(randNum,input)
   case input
   when randNum
-    puts "You ran out of gas."
+    puts "You guessed the correct number!"
   when "exit"
     puts "Goodbye!"
   else
