@@ -17,7 +17,7 @@ def process_input(randNum,input)
   when "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed #{randNum}"
+    puts "/Sorry! The computer guessed #{randNum}./"
   end
 end
 
