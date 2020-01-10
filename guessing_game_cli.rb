@@ -18,7 +18,7 @@ def get_user_input
 end
 
 def process_input(randNum,input)
-  case input
+  case input.downcase
   when randNum.to_s
     puts "You guessed the correct number!"
   when "exit"
