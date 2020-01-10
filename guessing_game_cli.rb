@@ -24,7 +24,7 @@ def process_input(randNum,input)
   when "exit"
     "The tank is almost empty. Quickly, find a gas station!"
   else
-  "Error: capacity has an invalid value (#{capacity})"
+    puts "Sorry! The computer guessed <number>"
   end
 end
 
