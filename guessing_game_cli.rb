@@ -1,4 +1,8 @@
 def run_guessing_game
-  randNum = rand(6) + 1
   
+  
+end
+
+def gen_rand
+  return randNum = rand(6) + 1
 end
