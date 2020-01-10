@@ -22,7 +22,7 @@ def process_input(randNum,input)
   when randNum
     puts "You ran out of gas."
   when "exit"
-    "The tank is almost empty. Quickly, find a gas station!"
+    puts "Goodbye!"
   else
     puts "Sorry! The computer guessed <number>"
   end
