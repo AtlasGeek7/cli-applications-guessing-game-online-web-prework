@@ -1,9 +1,4 @@
-def run_guessing_game
-  randNum = gen_rand
-  prompt_user
-  input = get_user_input
-  process_input(randNum,input)
-end
+
 
 def gen_rand
   rand(6) + 1
@@ -28,4 +23,9 @@ def process_input(randNum,input)
   end
 end
 
-
+def run_guessing_game
+  randNum = gen_rand
+  prompt_user
+  input = get_user_input
+  process_input(randNum,input)
+end
