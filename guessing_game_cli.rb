@@ -1,5 +1,3 @@
-
-
 def gen_rand
   rand(6) + 1
 end
