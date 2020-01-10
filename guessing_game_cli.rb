@@ -1,6 +1,8 @@
 def run_guessing_game
-
-  
+  randNum = gen_rand
+  prompt_user
+  input = get_user_input
+  process_input(randNum,input)
 end
 
 def gen_rand
@@ -15,7 +17,7 @@ def get_user_input
   gets.chomp.strip
 end
 
-def process_input
+def process_input(randNum,input)
   
 end
 
