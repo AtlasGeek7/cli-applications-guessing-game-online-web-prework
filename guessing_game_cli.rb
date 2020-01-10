@@ -19,7 +19,7 @@ end
 
 def process_input(randNum,input)
   case input
-  when randNum
+  when randNum.to_s
     puts "You guessed the correct number!"
   when "exit"
     puts "Goodbye!"
